@@ -12,7 +12,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #000216, #08102e, #051849, #0a1e63, #1a237e);
+  background-image: linear-gradient(to bottom, #000216, #000216);
   background-attachment: fixed;
   min-height: 100vh;
   color: #fff;
