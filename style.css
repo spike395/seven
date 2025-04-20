@@ -397,7 +397,7 @@ body {
 .site-footer
 {
   font-family: Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #000216, #08102e);
+  background-color: #000216;
   background-attachment: fixed;
   color: #fff;
 }
