@@ -360,33 +360,26 @@ body {
   font-size: 0.8em;
 }
 
-.live-tag {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: var(--live-color, #ff0000);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  z-index: 10;
-  /* Breathing animation */
-  animation: breathe 2.5s ease-in-out infinite;
-}
+ .live-tag {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background-color: red;
+   color: white;
+   padding: 5px 10px;
+   font-weight: bold;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   animation: pulse 1s infinite;
+ }
 
-@keyframes breathe {
-
-  0%,
-  100% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.05);
-  }
-}
-
+ @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
 .site-footer {
   text-align: center;
 }
